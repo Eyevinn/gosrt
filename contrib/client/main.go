@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	srt "github.com/datarhei/gosrt"
+	srt "github.com/Eyevinn/gosrt"
 )
 
 type stats struct {

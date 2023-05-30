@@ -9,10 +9,10 @@ Implementation of the SRT protocol in pure Go with minimal dependencies.
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Tests](https://github.com/datarhei/gosrt/actions/workflows/go-tests.yml/badge.svg)
+![Tests](https://github.com/Eyevinn/gosrt/actions/workflows/go-tests.yml/badge.svg)
 [![codecov](https://codecov.io/gh/datarhei/gosrt/branch/main/graph/badge.svg?token=90YMPZRAFK)](https://codecov.io/gh/datarhei/gosrt)
-[![Go Report Card](https://goreportcard.com/badge/github.com/datarhei/gosrt)](https://goreportcard.com/report/github.com/datarhei/gosrt)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/datarhei/gosrt)](https://pkg.go.dev/github.com/datarhei/gosrt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Eyevinn/gosrt)](https://goreportcard.com/report/github.com/Eyevinn/gosrt)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/Eyevinn/gosrt)](https://pkg.go.dev/github.com/Eyevinn/gosrt)
 
 -   [SRT reference implementation](https://github.com/Haivision/srt)
 -   [SRT RFC](https://haivision.github.io/srt-rfc/draft-sharabayko-srt.html)
@@ -47,13 +47,13 @@ A Go version of 1.18+ is required.
 ## Installation
 
 ```
-go get github.com/datarhei/gosrt
+go get github.com/Eyevinn/gosrt
 ```
 
 ## Caller example
 
 ```
-import "github.com/datarhei/gosrt"
+import "github.com/Eyevinn/gosrt"
 
 conn, err := srt.Dial("srt", "golang.org:6000", srt.Config{
     StreamId: "...",
@@ -81,7 +81,7 @@ In the `contrib/client` directory you'll find a complete example of a SRT client
 ## Listener example
 
 ```
-import "github.com/datarhei/gosrt"
+import "github.com/Eyevinn/gosrt"
 
 ln, err := srt.Listen("srt", ":6000", srt.Config{...})
 if err != nil {

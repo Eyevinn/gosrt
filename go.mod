@@ -1,4 +1,4 @@
-module github.com/datarhei/gosrt
+module github.com/Eyevinn/gosrt
 
 go 1.18
 

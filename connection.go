@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/datarhei/gosrt/internal/circular"
-	"github.com/datarhei/gosrt/internal/congestion"
-	"github.com/datarhei/gosrt/internal/crypto"
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/circular"
+	"github.com/Eyevinn/gosrt/internal/congestion"
+	"github.com/Eyevinn/gosrt/internal/crypto"
+	"github.com/Eyevinn/gosrt/internal/packet"
 )
 
 // Conn is a SRT network connection.

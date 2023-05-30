@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/datarhei/gosrt/internal/crypto"
-	srtnet "github.com/datarhei/gosrt/internal/net"
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/crypto"
+	srtnet "github.com/Eyevinn/gosrt/internal/net"
+	"github.com/Eyevinn/gosrt/internal/packet"
 )
 
 // ConnType represents the kind of connection as returned

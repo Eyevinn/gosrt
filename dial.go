@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/datarhei/gosrt/internal/circular"
-	"github.com/datarhei/gosrt/internal/crypto"
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/circular"
+	"github.com/Eyevinn/gosrt/internal/crypto"
+	"github.com/Eyevinn/gosrt/internal/packet"
 )
 
 // ErrClientClosed is returned when the client connection has

@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/packet"
 
 	"github.com/stretchr/testify/require"
 )

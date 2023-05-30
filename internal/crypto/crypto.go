@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/packet"
 
 	"github.com/benburkert/openpgp/aes/keywrap"
 	"golang.org/x/crypto/pbkdf2"

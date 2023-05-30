@@ -2,8 +2,8 @@
 package congestion
 
 import (
-	"github.com/datarhei/gosrt/internal/circular"
-	"github.com/datarhei/gosrt/internal/packet"
+	"github.com/Eyevinn/gosrt/internal/circular"
+	"github.com/Eyevinn/gosrt/internal/packet"
 )
 
 // SendConfig is the configuration for the liveSend congestion control
